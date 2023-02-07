@@ -300,6 +300,8 @@ export default function App() {
             <Box display={"flex"} justifyContent="center" mb="10">
               <Text mr="5">单程耗时：{timeCoast}分钟</Text>
               <Text>每天耗时：{timeCoast * 2}分钟</Text>
+            </Box>
+            <Box display={"flex"} justifyContent="center" mb="10">
               <Text>
                 一个月你要在地铁上：{timeCoast * watchFields[2] * 2}分钟
               </Text>
