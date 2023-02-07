@@ -99,6 +99,7 @@ export default function App() {
     if (data.numberOfDays <= 0) {
       alert("不要捣乱，居家办公或者去找工作去");
     }
+    return;
     console.log(data);
     const res = await fetch(
       `https://apis.gzmtr.com/app-map/metroweb/route/${data.startStation}/${data.endStation}`,
