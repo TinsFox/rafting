@@ -178,8 +178,8 @@ export default function App() {
                   <AccordionPanel pb={4}>
                     <OrderedList>
                       <ListItem>通勤次数=上班天数*2</ListItem>
-                      <ListItem>16次原价计算</ListItem>
-                      <ListItem>16次后打六折</ListItem>
+                      <ListItem>前15次原价计算</ListItem>
+                      <ListItem>第16次后打六折</ListItem>
                     </OrderedList>
                   </AccordionPanel>
                 </AccordionItem>
