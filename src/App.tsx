@@ -214,6 +214,7 @@ export default function App() {
                       overflow={"auto"}
                       flexWrap={"wrap"}
                       h={100}
+                      mt="5"
                     >
                       {businessObject
                         ?.find((item) => item.lineName === watchFields[0])
@@ -251,6 +252,7 @@ export default function App() {
                         h={100}
                         overflow={"auto"}
                         flexWrap={"wrap"}
+                        mt="5"
                       >
                         {businessObject
                           ?.find((item) => item.lineName === watchFields[1])
@@ -294,7 +296,7 @@ export default function App() {
                 <Text>总花费：{totalCoast}元</Text>
               </Box>
             </Box>
-            <Box>
+            <Box display={"flex"} justifyContent="center" mb="10">
               <Text mr="5">单程耗时：{timeCoast}分钟</Text>
               <Text>每天耗时：{timeCoast * 2}分钟</Text>
               <Text>
